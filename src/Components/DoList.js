@@ -1,6 +1,20 @@
 import React from 'react';
 
-function DoList () {
+function DoList ({text, dolist, doslist, setDolist }) {
+    const deleteHandler = () => {
+        setDolist(doslist.filter(el => el.id !== dolist.id));
+    };
+    const checkHandler = () => {
+        setDolist(doslist.map(item => {
+            if(item.id === dolist.id){
+                return {
+                    ...item, checked: !item.checked
+                };
+            }
+            return item;
+        })
+        );
+    }
     return(
         <div className="DoList">
             <li className={`DoList-item ${dolist.checked ? "checked" : ""}`}>{text}</li>
@@ -15,4 +29,3 @@ function DoList () {
 }
 
 export default DoList;
-}
