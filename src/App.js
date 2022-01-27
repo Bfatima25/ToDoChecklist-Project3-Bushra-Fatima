@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import FormToDo from "./Components/FormToDo";
 import ToDoList from "./Components/ToDoList";
@@ -9,6 +9,11 @@ function App() {
   const [doslist, setDolist] = useState([]);
   const [status, setStatus] = useState("all");
   const [filteredDoslist, setFilteredDoslist] = useState([]);
+
+//USE EFFECT
+  useEffect(() => {
+    filterHandler();
+  }, [doslist, status]); 
 
 //FUNCTIONS
   const filterHandler = () => {
