@@ -99,7 +99,7 @@ form button:hover {
   font-size: 1rem;
 }
 .checklist-btn {
-  background: rgb(52, 153, 93);
+  background: rgb(52, 153, 91);
 }
 .DoList-item {
   padding: 0rem 0.5rem;
@@ -107,4 +107,53 @@ form button:hover {
 .checked {
   text-decoration: line-through;
   opacity: 0.5;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 52px) 
+and (max-width: 320px) {
+  header {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+  form input,
+  form button {
+    width: 25vh;
+    position: relative;
+    right: -12vh;
+  }
+  form button {
+    width: 15vh;
+  }
+  .filter-dolist {
+    position: relative;
+    bottom: -10vh;
+    justify-content: center;
+    right: 15vh;
+  }
+}
+
+@media (min-width: 321px) 
+and (max-width: 768px) {
+  header {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+  form input,
+  form button {
+    width: 35vh;
+    position: relative;
+    right: -10vh;
+    justify-content: center;
+  }
+  form button {
+    width: 10vh;
+  }
+  .filter-dolist {
+    position: relative;
+    bottom: -10vh;
+    left: -25vh;
+  }
 }
