@@ -7,6 +7,23 @@ function App() {
   //state
   const [inputText, setInputText] = useState("");
   const [doslist, setDolist] = useState([]);
+  const [status, setStatus] = useState("all");
+  const [filteredDoslist, setFilteredDoslist] = useState([]);
+
+//FUNCTIONS
+  const filterHandler = () => {
+    switch (status) {
+      case 'completed':
+        setFilteredDoslist(doslist.filter((dolist) => dolist.checked === true));
+        break;
+      case 'incomplete':
+        setFilteredDoslist(doslist.filter((dolist) => dolist.completed === false));
+        break;
+      default:
+        setFilteredDoslist(doslist);
+        break;
+      }
+  };
   return (
     <div className="ToDolist">
       <header>
