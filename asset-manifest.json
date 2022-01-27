@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ToDoChecklist-Project3-Bushra-Fatima/static/css/main.b090783c.css",
+    "main.js": "/ToDoChecklist-Project3-Bushra-Fatima/static/js/main.a6cb5e1d.js",
+    "static/js/787.feb4efd3.chunk.js": "/ToDoChecklist-Project3-Bushra-Fatima/static/js/787.feb4efd3.chunk.js",
+    "index.html": "/ToDoChecklist-Project3-Bushra-Fatima/index.html",
+    "main.b090783c.css.map": "/ToDoChecklist-Project3-Bushra-Fatima/static/css/main.b090783c.css.map",
+    "main.a6cb5e1d.js.map": "/ToDoChecklist-Project3-Bushra-Fatima/static/js/main.a6cb5e1d.js.map",
+    "787.feb4efd3.chunk.js.map": "/ToDoChecklist-Project3-Bushra-Fatima/static/js/787.feb4efd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b090783c.css",
+    "static/js/main.a6cb5e1d.js"
+  ]
+}
