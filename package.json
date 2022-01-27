@@ -2,7 +2,7 @@
   "name": "todochecklist-project3",
   "version": "0.1.0",
   "homepage": "https://Bfatima25.github.io/ToDoChecklist-Project3-Bushra-Fatima",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
