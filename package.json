@@ -1,7 +1,7 @@
 {
-  "name": "todochecklist-project3",
+  "name": "todochecklist",
   "version": "0.1.0",
-  "homepage": "https://Bfatima25.github.io/ToDoChecklist-Project3-Bushra-Fatima",
+  "homepage": "https://github.com/Bfatima25/todochecklist.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
